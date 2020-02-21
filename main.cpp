@@ -1,6 +1,8 @@
-#include <iostream>
+#include "Table.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Table table;
+    while (table.edit()) {}
+
     return 0;
 }

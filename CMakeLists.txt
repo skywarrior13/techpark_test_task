@@ -3,4 +3,4 @@ project(task_21_02_2020)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(task_21_02_2020 main.cpp)
+add_executable(task_21_02_2020 main.cpp Table.cpp Table.h)
